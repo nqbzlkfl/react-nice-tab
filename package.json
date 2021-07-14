@@ -1,6 +1,6 @@
 {
   "name": "react-nice-tab",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "nice tab for react js",
   "private": false,
   "main": "dist/index.js",

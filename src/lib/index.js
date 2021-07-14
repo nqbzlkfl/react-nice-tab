@@ -39,7 +39,7 @@ export default (props) => {
         return (
           <div
             key={d.label}
-            onClick={() => onChange(d.label)}
+            onClick={() => onChange(d.value)}
             className="react-nice-tab-label"
             aria-hidden="true"
             style={{ color: isActive ? styles.background : styles.foreground }}
