@@ -11,7 +11,6 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "npm publish --access public",
     "build": "rm -rf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
   },
   "repository": {

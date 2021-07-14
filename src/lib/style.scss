@@ -1,0 +1,36 @@
+$highlight:#05B995;
+$border-radius: 30em;
+
+.gradient-slider{
+  &-container{
+    display: flex;
+    position: relative;
+    align-items: center;
+    border-radius: $border-radius;
+    justify-content: space-between;
+    width: 100%;
+    background: linear-gradient(90deg,$highlight 0%,  #202651 100%);
+  }
+
+  &-label{
+    flex: 1;
+    text-align: center;
+    z-index: 11;
+    padding: .5em;
+    font-size: .8em;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+   &-label:hover{
+     color: white !important;
+   }
+
+  &-highlight{
+    background-color: $highlight;
+    position: absolute;
+    border-radius: $border-radius;
+    z-index: 10;
+    height: 100%;
+    transition: all 0.3s ease-in-out;
+  }
+}
