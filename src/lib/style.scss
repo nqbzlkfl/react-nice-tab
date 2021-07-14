@@ -1,15 +1,10 @@
-$highlight:#05B995;
-$border-radius: 30em;
-
-.gradient-slider{
+.react-nice-tab {
   &-container{
     display: flex;
     position: relative;
     align-items: center;
-    border-radius: $border-radius;
     justify-content: space-between;
     width: 100%;
-    background: linear-gradient(90deg,$highlight 0%,  #202651 100%);
   }
 
   &-label{
@@ -26,9 +21,7 @@ $border-radius: 30em;
    }
 
   &-highlight{
-    background-color: $highlight;
     position: absolute;
-    border-radius: $border-radius;
     z-index: 10;
     height: 100%;
     transition: all 0.3s ease-in-out;
